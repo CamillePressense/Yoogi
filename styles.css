@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter Tight";
+    color: rgb(36, 48, 16);
+}
+
+h1{
+   margin: 0.8rem;
+   font-size: 2rem;
+}
+
+.list-container{
+    background-color: rgb(192, 204, 155);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:1rem;
+}
+
+footer{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding:1rem;
+    color:rgb(192, 204, 155);
+}
+
+.recipe-container{
+    background-color: rgb(244, 245, 240);
+    border-radius: 5%;
+}
+
+.recipe-container:hover :focus{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border:1px solid rgb(68, 82, 24);
+}
+.recipe-infos{
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+}
+
+.author{
+    color: rgb(135, 163, 48);
+    font-size: 0.8rem;
+
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.recipe-tags{
+    color:rgb(68, 82, 24);
+    background-color: rgb(192, 204, 155);
+    border-radius: 8%;
+    width: fit-content;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+a {
+    color:rgb(192, 204, 155);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover :focus{
+    color:white;
+}
+
+.recipe-photo{
+    width:100%;
+    border-radius: 5%;
+    border: 1px solid rgb(229, 217, 201)
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.logo {
+    width: 70px;
+}
+
+.copyright{
+    font-weight: 300;
+}
+
+.burger-menu:focus :hover{
+    cursor: pointer;
+
+}
