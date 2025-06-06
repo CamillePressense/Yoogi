@@ -39,7 +39,12 @@ footer{
     border-radius: 5%;
 }
 
-.recipe-container:hover :focus{
+.recipe-container:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border:1px solid rgb(68, 82, 24);
+}
+
+.recipe-container:focus{
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     border:1px solid rgb(68, 82, 24);
 }
@@ -83,7 +88,11 @@ a {
     font-weight: 500;
 }
 
-a:hover :focus{
+a:hover{
+    color:white;
+}
+
+a:focus{
     color:white;
 }
 
@@ -111,3 +120,15 @@ header{
     cursor: pointer;
 
 }
+
+/* Responsive */
+
+@media screen and (min-width: 768px){
+    .list-container{
+        flex-direction: row;
+    }
+
+/* Faire sortir h2 de la flex box ! */
+
+}
+
